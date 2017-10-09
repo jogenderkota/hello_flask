@@ -23,7 +23,7 @@ def show_user_profile(username):
 
 @app.route('/post/<int:post_id>')
 def show_post(post_id):
-    # show the post with the given id, the id is an integer
+    # show the post with the given Id, the Id is an integer
     return 'post %d' % post_id
 
 @app.route('/projects/')
